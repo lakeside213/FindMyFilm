@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+	<film>
+		<name>No Time to Die</name>
+		<description>James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.</description>
+		<image>https://fimyfilm.com/resources/images/no-time-to-die.jpeg</image>
+		<trailer>https://www.youtube.com/embed/vw2FOYjCz38</trailer>
+		<release>2021</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/no-time-to-die.html</link>
+	</film>
+    <film>
+		<name>Spectre</name>
+		<description>A cryptic message from James Bond's past sends him on a trail to uncover the existence of a sinister organisation named SPECTRE. With a new threat dawning, Bond learns the terrible truth about the author of all his pain in his most recent missions.</description>
+		<image>https://fimyfilm.com/resources/images/spectre.jpeg</image>
+		<trailer>https://www.youtube.com/embed/ujmoYyEyDP8</trailer>
+		<release>2021</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/spectre.html</link>
+	</film>
+    <film>
+		<name>Skyfall</name>
+		<description>James Bond's loyalty to M is tested when her past comes back to haunt her. When MI6 comes under attack, 007 must track down and destroy the threat, no matter how personal the cost.</description>
+		<image>https://fimyfilm.com/resources/images/skyfall.jpeg</image>
+		<trailer>https://www.youtube.com/embed/vw2FOYjCz38</trailer>
+		<release>2021</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/skyfall.html</link>
+	</film>
+    <film>
+		<name>Knives Out</name>
+		<description>A detective investigates the death of a patriarch of an eccentric, combative family.</description>
+		<image>https://fimyfilm.com/resources/images/knives-out.jpeg</image>
+		<trailer>https://www.youtube.com/embed/1NchUqMA</trailer>
+		<release>2021</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/knives-out.html</li>
+	</film>
+    <film>
+		<name>Joker</name>
+		<description>In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.</description>
+		<image>https://fimyfilm.com/resources/images/joker.jpeg</image>
+		<trailer>https://www.youtube.com/embed/zAGVQLHvwOY</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/joker.html</li>
+	</film>
+    <film>
+		<name>Interstellar</name>
+		<description>A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.</description>
+		<image>https://fimyfilm.com/resources/images/interstellar.jpeg</image>
+		<trailer>https://www.youtube.com/embed/zAGVQLHvwOY</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+     <film>
+		<name>Inception</name>
+		<description>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster</description>
+		<image>https://fimyfilm.com/resources/images/inception.jpeg</image>
+		<trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+    <film>
+		<name>Inception</name>
+		<description>A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster</description>
+		<image>https://fimyfilm.com/resources/images/inception.jpeg</image>
+		<trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+    <film>
+		<name>The Dark Knight</name>
+		<description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</description>
+		<image>https://fimyfilm.com/resources/images/inception.jpeg</image>
+		<trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+    <film>
+		<name>The Dark Knight</name>
+		<description>When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.</description>
+		<image>https://fimyfilm.com/resources/images/dark-knight-rises.jpeg</image>
+		<trailer>https://www.youtube.com/embed/GokKUqLcvD8</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+    <film>
+		<name>Batman Begins</name>
+		<description>After training with his mentor, Batman begins his fight to free crime-ridden Gotham City from corruption.</description>
+		<image>https://fimyfilm.com/resources/images/inception.jpeg</image>
+		<trailer>https://www.youtube.com/embed/YoHD9XEInc0</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+
+    <film>
+		<name>The Prestige</name>
+		<description>After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.</description>
+		<image>https://fimyfilm.com/resources/images/prestige.jpeg</image>
+		<trailer>https://www.youtube.com/embed/RLtaA9fFNXU</trailer>
+		<release>2019</release>
+        <publisher>Studio Wildcard</publisher>
+        <rating>7.5/10 Stars</rating>
+		<category>Action</category>
+		<link>https://fimyfilm.com/interstellar.html</li>
+	</film>
+
+</content>
