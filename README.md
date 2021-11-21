@@ -137,9 +137,11 @@ _Trailer_: https://youtu.be/lWr6dhTcu-E
 ![Alt text](./Resources/GamesPhotos/warzone.jpg)  
 _Trailer_: https://youtu.be/0E44DClsX5Q
 
-**Basic Prototype of the Website**  
-![Alt text](./Resources/Layout/layout.svg)  
-The Website should follow the given prototype in terms of colors, fonts and layout.
+**Style guide**  
+Font: [Roboto](https://fonts.google.com/specimen/Roboto)
+primary color: #000
+secondary color: #FFD700
+text-color: #fff
 
 ## Developer Work Distribution
 
