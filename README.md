@@ -106,33 +106,33 @@ Please consider naming the file as films.html and the title as films.
 All given films should have a picture, rating.
 
 **Resources**  
-**ark**:  
-![Alt text](./Resources/GamesPhotos/ark.jpeg)  
-_Trailer_: https://youtu.be/iyvgDZL514A
+**Dark knight rises**:  
+![Alt text](assignment-2a/website-content/resources/images/dark-knight-rises.jpg)  
+_Trailer_: https://youtu.be/YoHD9XEInc0
 
-**csgo**:  
-![Alt text](./Resources/GamesPhotos/csgo.png)  
-_Trailer_: https://youtu.be/edYCtaNueQY
+**inception**:  
+![Alt text](assignment-2a/website-content/resources/images/inception.jpg)  
+_Trailer_: https://youtu.be/YoHD9XEInc0
 
-**gta**:  
-![Alt text](./Resources/GamesPhotos/gta.jpg)  
-_Trailer_: https://youtu.be/hvoD7ehZPcM
+**intersteller**:  
+![Alt text](assignment-2a/website-content/resources/images/interstellar.jpg)  
+_Trailer_: https://youtu.be/zSWdZVtXT7E
 
-**league of legends**:  
-![Alt text](./Resources/GamesPhotos/lol.jpg)  
-_Trailer_: https://youtu.be/7O21Z6vgtmY
+**joker**:  
+![Alt text](assignment-2a/website-content/resources/images/joker.jpg)  
+_Trailer_: https://youtu.be/zAGVQLHvwOY
 
-**monoply**:  
-![Alt text](./Resources/GamesPhotos/monoply.jpg)  
-_Trailer_: https://youtu.be/nh-wOBN-TgE
+**no time to die**:  
+![Alt text](assignment-2a/website-content/resources/images/no-time-to-die.jpg)  
+_Trailer_: https://youtu.be/vw2FOYjCz38
 
-**volarant**:  
-![Alt text](./Resources/GamesPhotos/volarant.jpg)  
-_Trailer_: https://youtu.be/lWr6dhTcu-E
+**skyfall**:  
+![Alt text](assignment-2a/website-content/resources/images/skyfall.jpg)  
+_Trailer_: https://youtu.be/6kw1UVovByw
 
-**warzone**:  
-![Alt text](./Resources/GamesPhotos/warzone.jpg)  
-_Trailer_: https://youtu.be/0E44DClsX5Q
+**spectre**:  
+![Alt text](assignment-2a/website-content/resources/images/spectre.jpg)  
+_Trailer_: https://youtu.be/ujmoYyEyDP8
 
 **Basic Prototype of the Website**  
 ![Alt text](./Resources/Layout/layout.svg)  
