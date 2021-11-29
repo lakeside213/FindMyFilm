@@ -1,5 +1,9 @@
 # FindMyFilm
 
+**Website title, domain and purpose**  
+**Website title**: FindMyFilm  
+**Domain**: https://fimyfilm.com/ [domain name availabilty](https://www.name.com/domain/search/fimyfilm)
+
 **Business Description**  
 Our goal is to show users where and how they can watch the films they want to watch.
 we solve user problems such as:
@@ -8,7 +12,7 @@ Where to watch by showing users where their film is available
 How to watch by show users how to purchase or rent the content they want to watch
 
 **Business Potrait**
-We show you where you can legally watch movies that you love. You are kept up to date with what is new on their 
+We show you where you can legally watch movies that you love. You are kept up to date with what is new on their
 other streaming platforms.
 
 **Business Location**  
@@ -24,13 +28,24 @@ www.instagram.com/FindMyFilm
 **Our Services**
 We curate content from streaming services which we then show to users
 
-**User**
+**User Profile 1**
+Age: 18
+Gender: female
+Highest Level of Education: Abitur
+Professional Experience: 0
+She has a Computer and smartphone, she uses netflix, amazon prime, hulu and other streaming services regularly.
+She spends alot of time watching romcoms and films in general
+This person is an avid romcom viewer who has alot of options
+but doesn't know where and how to watch them due to a plethora of streaming services.
+She also wants to be able to discvoer new and popular romcoms
 
-**Website title, domain and purpose**  
-**Website title**: FindMyFilm  
-**Domain**: https://fimyfilm.com/ [domain name availabilty](https://www.name.com/domain/search/fimyfilm)
-**Purpose**: Since we have an interest in video games, and how they are designed. We decided to come up with a website to
-help the visitors collect as much information as they can about specific games, and that's why we named our website GameZone.
+**User Profile 2**
+Age: 17
+Gender: male
+Highest Level of Education: Abitur
+Professional Experience: 0
+He has a computer and a smartphone, he is not an avid film watcher but watches movie from time to time,
+is constantly looking for offers and discounts and where he can watch his films cheap
 
 **Webpages**  
 **Home**: Home page has all the most top rated films, long awaited films, and all the new releases. It should also be possible to
