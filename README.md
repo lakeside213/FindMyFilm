@@ -64,8 +64,9 @@ words which will then be sent to the company.
 **Registration**: Option to create an account and register for newsletter.
 
 **Web Design Diagram**
-![Alt text](./Diagram/WebDiagram.svg)
+![Alt text](./assignment-2a/website-content/resources/WebDiagram.svg)
 
+assignment-2a/website-content/resources/WebDiagram.svg
 **Requirements**  
 **XML Data file**: List of all films with their year of release, ratings, reviews, director, and actors.
 **SVG**: The logo of the company is to be designed in SVG.  
@@ -154,25 +155,3 @@ Font: [Roboto](https://fonts.google.com/specimen/Roboto)
 primary color: #000
 secondary color: #FFD700
 text-color: #fff
-
-## Developer Work Distribution
-
-**Developer:** Albrecht (Albrenik), Shrestha (shresdee)
-
-- **Design of Prototype:** Shrestha
-- **Creation of Prototype:** Shrestha
-- **Creation of Logo:** Shrestha
-- **Top rated games page:** Albrecht
-- **Most awaited Games:** Albrecht
-- **New Releases Page:** Albrecht
-- **All Games Page:** Albrecht
-- **Main Page(Categoeries):** Shrestha
-- **About Us Page:** Shrestha
-- **Contact Us Page:** Shrestha
-- **Register Page:** Shrestha
-- **FAQ's Page:** Shrestha
-- **Design with CSS** Albrecht & Shrestha
-- **JavaScript** Albrecht & Shrestha
-- **XML Data** Albrecht
-- **Game Pages for each Game** Albrecht
-- **Validation** Albrecht & Shrestha
