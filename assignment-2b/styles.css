@@ -15,11 +15,14 @@ html {
     background-color: rgba(0,0,0);
 }
 
+h3 {
+    text-align: left;
+}
 
 .wrapper {
     height: 100vh;
     display: grid;
-    grid-template-rows: 5em 1fr 5em;
+    grid-template-rows: 0.1fr 1fr 5em;
 }
 .header {
     font-size: 2em;
@@ -39,6 +42,7 @@ html {
 .navigation {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .nav_foot {
@@ -104,7 +108,7 @@ html {
     grid-area: k;
 }
 
-.aboutUs h1{
+.customHeadlines h1{
     text-align: center;
     max-width: 65%;
     margin: 0 auto;
@@ -201,9 +205,13 @@ a {
 .flex_container_cols {
     display: flex;
     flex-direction: row;
-    margin: 0 auto;
+    margin: 1em;
+    flex-wrap: wrap;
 }
-
+.flex_container_cols img{
+    padding-right: 20px;
+    padding-left: 20px;
+}
 .flex_container_cols label {
     width: 10em;
 }
