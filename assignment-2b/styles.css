@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/***
+Main structure: Pretty much the same on all sites of this project.
+ */
+html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 1.5;
+
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    color: white;
+    background-color: rgba(0,0,0);
+}
+
+
+.wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5em 1fr 5em;
+}
+.header {
+    font-size: 2em;
+    background: #000;
+}
+
+.content {
+    overflow-y: scroll;
+    margin-top: 0.2em;
+}
+
+.footer {
+    font-size: 1em;
+    background: #000;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav_foot {
+    justify-content: center;
+}
+
+.wrapper_grid{
+    padding-top: 3em;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap: 10px;
+    grid-auto-rows: 100px;
+    grid-template-areas:
+    "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
+    "c c c c d d d d"
+    "e e e e f f f f"
+    "e e e e f f f f";
+}
+
+.headline1 {
+    grid-area: a;
+}
+
+.contentText1 {
+    grid-area: b;
+}
+
+.headline2 {
+    grid-area: d;
+}
+
+.contentText2 {
+    grid-area: c;
+}
+
+.headline3 {
+    grid-area: e;
+}
+
+.contentText3 {
+    grid-area: f;
+}
+
+.aboutUs h1{
+    text-align: center;
+    max-width: 65%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffd700;
+    border-radius: 10px;
+    border: 1px solid #ffd700;
+}
+
+.nav_content {
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: black;
+    font-size: 250%;
+    border-radius: 10px;
+    border: 1px solid #ffd700;
+    font-weight: bold ;
+}
+
+.nav_content ul{
+    list-style: none;
+    display: flex;
+}
+
+.nav_content ul li {
+    width:100%;
+    text-align:center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.nav_content ul li:not(:last-child){
+    border-right: 1px solid #ffd700;
+}
+
+.padded_icon {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.non_pic_links {
+    padding-top: 1em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    color: gold;
+    padding-left: 2em;
+    padding-top: 3em;
+    border-radius: 3px;
+}
+.container label{
+    padding-right: 2em;
+    font-size: 150%;
+    font-weight: bold;
+}
+.container input[type=text], textarea, select {
+    border: 1px solid #ffd700;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 20px;
+    resize: vertical;
+}
+
+.container input[type=submit] {
+    color: gold;
+    width: 80%;
+    font-size: 150%;
+    background-color: #282828;
+    border-radius: 3px;
+}
+
+.container input[type=submit]:hover {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    background-color: gold;
+    color: #282828;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.flex_container_rows {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+}
+
+.flex_container_cols {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.flex_container_cols label {
+    width: 10em;
+}
