@@ -8,27 +8,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="styles.css">
+    <!-- for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
+    <script src="responsiveMenu.js"></script>
 </head>
 
 <body>
-    <main>
-        <div class="wrapper">
-            <div class="header">
-                <nav class="navigation">
-                    <a href="index.html">
-                        <img width="268.5" src="res/FindMyFilm.svg" alt="find my film logo">
-                    </a>
-                    <a class="non_pic_links" href="register.html">sign up</a>
-                    <a class="non_pic_links" href="aboutUs.html">about us</a>
-                    <a class="non_pic_links" href="contact.html">contact</a>
-                    <a class="non_pic_links" href="faqs.html">faq</a>
+<main>
+    <div class="wrapper">
 
-                </nav>
+        <!--Header, stickied with landmark navigation-->
+        <!--Header, stickied with landmark navigation-->
+
+        <div class="header">
+            <div class="nav_head" id="navBar">
+                <a class="active" href="index.html">
+                    <img width="268.5" src="res/FindMyFilm.svg" alt="find my film logo">
+                </a>
+                <a href="register.html">sign up</a>
+                <a href="aboutUs.html">about us</a>
+                <a href="contact.html">contact</a>
+                <a href="faqs.html">faq</a>
+                <a href="javascript:void(0);" class="menu_button" onclick="openMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
             </div>
+        </div>
+
             <div class="content">
                 <div class="container flex_container_rows">
                     <h2>create an account and stay up to date with our newsletter</h2>

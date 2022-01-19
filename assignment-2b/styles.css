@@ -45,6 +45,19 @@ h3 {
     flex-wrap: wrap;
 }
 
+.nav_head {
+    overflow: hidden;
+}
+
+.nav_head a {
+    color: gold;
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 15px;
+}
+
 .nav_foot {
     justify-content: center;
 }
@@ -58,12 +71,17 @@ h3 {
     grid-template-areas:
     "a a a a b b b b"
     "a a a a b b b b"
+    "a a a a b b b b"
+    "c c c c d d d d"
     "c c c c d d d d"
     "c c c c d d d d"
     "e e e e f f f f"
     "e e e e f f f f"
+    "e e e e f f f f"
     "g g g g h h h h"
     "g g g g h h h h"
+    "g g g g h h h h"
+    "i i i i k k k k"
     "i i i i k k k k"
     "i i i i k k k k";
 }
@@ -143,6 +161,33 @@ h3 {
     border-right: 1px solid #ffd700;
 }
 
+.nav_head .menu_button {
+    display: none;
+}
+
+/* responsive menu for mobile */
+@media screen and (max-width: 600px) {
+    .nav_head a:not(:first-child) {display: none;}
+    .nav_head a.menu_button {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav_head.responsive {position: relative;}
+    .nav_head.responsive a.menu_button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .nav_head.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
 .padded_icon {
     padding-left: 0.5em;
     padding-right: 0.5em;
@@ -150,11 +195,6 @@ h3 {
 
 .non_pic_links {
     padding-top: 1em;
-}
-
-a {
-    color: white;
-    text-decoration: none;
 }
 
 .container {
