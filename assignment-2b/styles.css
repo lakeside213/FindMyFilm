@@ -4,15 +4,19 @@
 /***
 Main structure: Pretty much the same on all sites of this project.
  */
-html {
-    height: 100%;
-    margin: 0;
+html, body {
+
     text-align: center;
     line-height: 1.5;
 
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     color: white;
     background-color: rgba(0,0,0);
+}
+
+body {
+    margin: 0;
+    height: 100%;
 }
 
 h3 {
@@ -22,7 +26,7 @@ h3 {
 .wrapper {
     height: 100vh;
     display: grid;
-    grid-template-rows: 0.1fr 1fr 5em;
+    grid-template-rows: 0.1fr 1fr 30px;
 }
 .header {
     font-size: 2em;
@@ -31,7 +35,6 @@ h3 {
 
 .content {
     overflow-y: scroll;
-    margin-top: 0.2em;
 }
 
 .footer {
@@ -63,7 +66,7 @@ h3 {
 }
 
 .wrapper_grid{
-    padding-top: 3em;
+    padding: 3em;
     display: grid;
     grid-template-columns: repeat(8,1fr);
     gap: 10px;
@@ -152,10 +155,7 @@ h3 {
 }
 
 .nav_content ul li {
-    width:100%;
     text-align:center;
-    padding-left: 3em;
-    padding-right: 3em;
 }
 .nav_content ul li:not(:last-child){
     border-right: 1px solid #ffd700;
@@ -166,7 +166,7 @@ h3 {
 }
 
 /* responsive menu for mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .nav_head a:not(:first-child) {display: none;}
     .nav_head a.menu_button {
         float: right;
@@ -174,7 +174,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
     .nav_head.responsive {position: relative;}
     .nav_head.responsive a.menu_button {
         position: absolute;
@@ -247,6 +247,7 @@ h3 {
     flex-direction: row;
     margin: 1em;
     flex-wrap: wrap;
+    align-items: center;
 }
 .flex_container_cols img{
     padding-right: 20px;
@@ -267,4 +268,22 @@ h3 {
     background-color: rgba(0, 0, 0, 0.75);
     padding-left: 20px;
     padding-right: 20px;
+}
+
+.video-container {
+    postition: relative;
+    padding-bottom: 56.25%;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 60%;
+    height: 60%;
 }
