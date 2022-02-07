@@ -21,6 +21,8 @@
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -46,6 +48,11 @@
         </div>
 
             <div class="content">
+                <ul class="breadcrumb">
+                    <li>...</li>
+                    <li id="refListItem"></li>
+                    <li id="currentPage"></li>
+                </ul>
                 <h1>contact us</h1>
                 <div class="container">
                     <label for="firstName">First Name</label>

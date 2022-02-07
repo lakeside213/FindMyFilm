@@ -22,6 +22,8 @@
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -51,6 +53,12 @@
         </div>
 
             <!-- Content in main flow over part-->
+        <div class="content">
+            <ul class="breadcrumb">
+                <li>...</li>
+                <li id="refListItem"></li>
+                <li id="currentPage"></li>
+            </ul>
 
             <div class="content wrapper_grid customHeadlines">
                 <h1 class="main_headline">about us</h1>
@@ -108,6 +116,7 @@
                     </p>
                 </div>
             </div>
+        </div>
 
             <!--Footer, stickied with social media info-->
 

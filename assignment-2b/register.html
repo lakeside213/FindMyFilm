@@ -22,6 +22,8 @@
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -44,8 +46,13 @@
                     <i class="fa fa-bars"></i>
                 </a>
             </nav>
-
+        </div>
             <div class="content">
+                <ul class="breadcrumb">
+                    <li>...</li>
+                    <li id="refListItem"></li>
+                    <li id="currentPage"></li>
+                </ul>
                 <h1>sign in or sign up</h1>
                 <div class="container flex_container_rows">
                     <h2>create an account and stay up to date with our newsletter</h2>

@@ -25,6 +25,7 @@ and new movies. Categorised and community-rated we include at least one source f
 
     <script src="responsiveMenu.js"></script>
     <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -54,9 +55,8 @@ and new movies. Categorised and community-rated we include at least one source f
                 <div class="content">
                     <ul class="breadcrumb">
                         <li>...</li>
-                        <li onload="createLink()" on>
-                        </li>
-                        <li id="currentPage"> current page</li>
+                        <li id="refListItem"></li>
+                        <li id="currentPage"></li>
                     </ul>
                     <h1>latest and highest rated movies</h1>
                     <div class="container flex_container_rows">

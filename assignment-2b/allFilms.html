@@ -22,6 +22,8 @@ anything interesting to find detailed description and further info."/>
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -53,6 +55,11 @@ anything interesting to find detailed description and further info."/>
             <!-- Content in main flow over part-->
 
             <div class="content">
+                <ul class="breadcrumb">
+                    <li>...</li>
+                    <li id="refListItem"></li>
+                    <li id="currentPage"></li>
+                </ul>
                 <div class="content">
                     <h1>all films</h1>
                     <div class="container flex_container_rows">

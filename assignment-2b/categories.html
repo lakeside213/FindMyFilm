@@ -21,6 +21,8 @@
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -48,6 +50,11 @@
             <!-- Content in main flow over part-->
 
             <div class="content">
+                <ul class="breadcrumb">
+                    <li>...</li>
+                    <li id="refListItem"></li>
+                    <li id="currentPage"></li>
+                </ul>
                 <div class="content">
                     <h1>all movie categories</h1>
                     <div class="container flex_container_rows">
@@ -103,10 +110,10 @@
                                                                 320px"
                                           src="res/moviePoster/skyfall-320.jpg"
                                           alt="Category: Comedy"/>
+                                    <div class="text-block">
+                                        <h2>comedy</h2>
+                                    </div>
                                 </a>
-                                <div class="text-block">
-                                    <h2>comedy</h2>
-                                </div>
                             </div>
 
                             <div class="pic_container">
@@ -117,10 +124,10 @@
                                                                 320px"
                                           src="res/moviePoster/spectre-320.jpg"
                                           alt="Category: Adventure"/>
+                                    <div class="text-block">
+                                        <h2>adventure</h2>
+                                    </div>
                                 </a>
-                                <div class="text-block">
-                                    <h2>adventure</h2>
-                                </div>
                             </div>
                         </div>
                     </div>

@@ -350,7 +350,7 @@ h2, h3 {
 
 .breadcrumb li {
     display : inline;
-    font-size: 60%;
+    font-size: 80%;
 }
 
 .breadcrumb li+li:before {

@@ -22,6 +22,8 @@
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -45,8 +47,14 @@
                 </a>
             </nav>
         </div>
-
+        <div class="content">
+            <ul class="breadcrumb">
+                <li>...</li>
+                <li id="refListItem"></li>
+                <li id="currentPage"></li>
+            </ul>
             <div class="content wrapper_grid customHeadlines">
+
                 <h1 class="main_headline">frequently asked questions</h1>
                 <div class="headline1">
                     <h2>how to download the movie?</h2>
@@ -79,6 +87,7 @@
                 </div>
                 <div style="height:1000px;"></div>
             </div>
+        </div>
         <div class="footer">
             You could not find your Film on FindMyFilm.com? Tell us:
             <br/>

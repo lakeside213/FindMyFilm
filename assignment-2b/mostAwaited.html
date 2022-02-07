@@ -21,6 +21,8 @@
     <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
+    <script src="breadcrumb.js"></script>
+    <script> window.addEventListener("load", createLink)</script>
 </head>
 
 <body>
@@ -43,10 +45,15 @@
                     <i class="fa fa-bars"></i>
                 </a>
             </nav>
-
+        </div>
             <!-- Content in main flow over part-->
 
             <div class="content">
+                <ul class="breadcrumb">
+                    <li>...</li>
+                    <li id="refListItem"></li>
+                    <li id="currentPage"></li>
+                </ul>
                 <div class="content">
                     <h1>all most awaited movies</h1>
                     <div class="container flex_container_rows">
@@ -62,7 +69,6 @@
                                           alt="Interstellar - movie Poster"/>
                                 </a>
                             </div>
-
                             <div>
                                 <a title="find me: Joker" href="joker.html"  tabindex="0">
                                 <img  srcset="res/moviePoster/joker-240.jpg 240w,
@@ -73,7 +79,6 @@
                                      alt="Joker - movie Poster"/>
                                 </a>
                             </div>
-
                             <div>
                                 <a title="find me: Spectre" href="spectre.html" tabindex="0">
                                     <img  srcset="res/moviePoster/spectre-240.jpg 240w,
