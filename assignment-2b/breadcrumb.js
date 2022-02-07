@@ -1,12 +1,12 @@
 
 function createLink() {
-    var ref = document.referrer;
-    var y = ref.split("/");
-    var z = y[y.length - 1].slice(0, -5);
-    var a = document.createElement("a");
+    let ref = document.referrer;
+    let y = ref.split("/");
+    let z = y[y.length - 1].slice(0, -5);
+    let a = document.createElement("a");
 
-    var text = document.createTextNode(z);
-    var link = document.createTextNode(text.data);
+    let text = document.createTextNode(z);
+    let link = document.createTextNode(text.data);
     a.appendChild(link);
     a.href = ref;
     a.title = "go back to: " + text.data;
@@ -15,9 +15,9 @@ function createLink() {
 }
 
 function getTitle() {
-    var x = document.URL;
-    var y = x.split("/");
-    var z = y[y.length - 1].slice(0, -5);
+    let x = document.URL;
+    let y = x.split("/");
+    let z = y[y.length - 1].slice(0, -5);
     document.getElementById("currentPage").appendChild(document.createTextNode(z));
 }
 
