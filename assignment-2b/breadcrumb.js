@@ -18,9 +18,6 @@ function createLink() {
 }
 
 function getTitle() {
-    document.write(document.title);
-}
-
-function alert() {
-    alert("hello World");
+    var a = document.getElementById("currentPage");
+    a.  document.write(document.title);
 }
