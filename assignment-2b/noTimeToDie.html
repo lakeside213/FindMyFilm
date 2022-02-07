@@ -1,18 +1,24 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/html" xml:lang="en" lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>No Time To Die</title>
-    <meta name="description" content="Your place to look for new and upcoming cinematic events and where to find them.">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"/>
+    <title>Category: Action</title>
+    <meta name="description" content="Your place to look for new and upcoming cinematic events and where to find them."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"/>
     <!-- for icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"/>
+
+    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" href="favicon.svg">
+    <link rel="mask-icon" href="mask-icon.svg" color="#000000">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="manifest" href="manifest.json">
 
     <script src="responsiveMenu.js"></script>
 </head>
@@ -20,27 +26,24 @@
 <body>
 <main>
     <div class="wrapper">
-
         <!--Header, stickied with landmark navigation-->
-        <!--Header, stickied with landmark navigation-->
-
         <div class="header">
-            <div class="nav_head" id="navBar">
-                <a class="active" href="index.html">
-                    <img width="268.5" src="res/FindMyFilm.svg" alt="find my film logo">
+            <nav class="nav_head" id="navBar">
+                <a class="active" href="index.html" tabindex="0">
+                    <img src="res/FindMyFilm.svg"
+                         width="180"  alt="find my film logo"/>
                 </a>
-                <a href="allFilms.html">all films</a>
-                <a href="categories.html">categories</a>
-                <a href="register.html">sign up</a>
-                <a href="aboutUs.html">about us</a>
-                <a href="contact.html">contact</a>
-                <a href="faqs.html">faq</a>
-                <a href="javascript:void(0);" class="menu_button" onclick="openMenu()">
+                <a href="allFilms.html" tabindex="0">all films</a>
+                <a href="categories.html" tabindex="0">categories</a>
+                <a href="register.html" tabindex="0">sign up</a>
+                <a href="aboutUs.html" tabindex="0">about us</a>
+                <a href="contact.html" tabindex="0">contact</a>
+                <a href="faqs.html" tabindex="0">faq</a>
+                <a href="javascript:void(0);" class="menu_button" onclick="openMenu()" tabindex="0">
                     <i class="fa fa-bars"></i>
                 </a>
-            </div>
+            </nav>
         </div>
-
             <!-- Content in main flow over part-->
 
             <div class="content">
@@ -49,13 +52,13 @@
                         <h1>No time to die</h1>
                         <div class="flex_container_cols">
                             <div>
-                                <a title="find me: No time to die" href="noTimeToDie.html">
+                                <a title="find me: No time to die" href="noTimeToDie.html" tabindex="0">
                                 <img srcset="res/moviePoster/no-time-to-die-240.jpg 240w,
                                              res/moviePoster/no-time-to-die-480.jpg 480w"
                                      sizes="(max-width: 900px) 240px,
                                                                480px"
                                      src="res/moviePoster/no-time-to-die-480.jpg"
-                                     alt="No time to die - Poster">
+                                     alt="No time to die - Poster"/>
                                 </a>
                             </div>
                             <div>
@@ -64,23 +67,24 @@
                                         height=100%
                                         title="YouTube video player"
                                         frameborder="0"
-                                        allowfullscreen="allowfullscreen"></iframe>
+                                        allowfullscreen="allowfullscreen" tabindex="0"></iframe>
                                 <h2>Directed by Cary Joji Fukunaga</h2>
                                 <p>James Bond has left active service.
-                                    His peace is short-lived when Felix Leiter, <br>
-                                    an old friend from the CIA, turns up asking for help, <br>
-                                    leading Bond onto the trail of a mysterious villain armed with dangerous new technology.</p>
+                                    His peace is short-lived when Felix Leiter, <br/>
+                                    an old friend from the CIA, turns up asking for help, <br/>
+                                    leading Bond onto the trail of a mysterious villain armed
+                                    with dangerous new technology.</p>
                                 <h2>user rating: 4.1 / 5</h2>
                             </div>
                             <div>
                                 <h2>
                                     Get it now for example on:
                                 </h2>
-                                <a href="https://www.amazon.de/gp/video/detail/amzn1.dv.gti.a5cf3001-7da5-4f70-bc9f-f4167c2a494f?autoplay=1&ref_=atv_cf_strg_wb">
-                                    <img src="res/icons/amazon.png">
+                                <a href="https://www.amazon.de/gp/video/detail/amzn1.dv.gti.a5cf3001-7da5-4f70-bc9f-f4167c2a494f?autoplay=1&ref_=atv_cf_strg_wb" tabindex="0">
+                                    <img src="res/icons/amazon.png" alt="amazon prime video link"/>
                                 </a>
-                                <br>
-                                <br>
+                                <br/>
+                                <br/>
                             </div>
                         </div>
 
@@ -94,23 +98,21 @@
             </div>
 
             <!--Footer, stickied with social media info-->
-
             <div class="footer">
-
                 You could not find your Film on FindMyFilm.com? Tell us:
-                <br>
+                <br/>
                 <nav class="navigation nav_foot">
-                    <a class="padded_icon" href="https://www.facebook.com/findmyfilm" alt="find my film facebook link">
-                        <img height="32" src="res/icons/facebook.svg" alt="facebook icon">
+                    <a class="padded_icon" href="https://www.facebook.com/findmyfilm" tabindex="0">
+                        <img height="32" src="res/icons/facebook.svg" alt="facebook icon"/>
                     </a>
-                    <a class="padded_icon" href="https://www.instagram.com/findmyfilm" alt="find my film instagram link">
-                        <img width="32" src="res/icons/Instagram.svg" alt="instagram icon">
+                    <a class="padded_icon" href="https://www.instagram.com/findmyfilm" tabindex="0">
+                        <img width="32" src="res/icons/Instagram.svg" alt="instagram icon"/>
                     </a>
-                    <a class="padded_icon" href="https://www.twitter.com/findmyfilm" alt="find my film twitter link">
-                        <img width="32" src="res/icons/Twitter.svg" alt="twitter icon">
+                    <a class="padded_icon" href="https://www.twitter.com/findmyfilm" tabindex="0">
+                        <img width="32" src="res/icons/Twitter.svg" alt="twitter icon"/>
                     </a>
-                    <a class="padded_icon" href="mailto:find@fimyfilm.com" alt="find my film mail link">
-                        <img height="32" src="res/icons/mono-kontact-mail.svg" alt="mail icon">
+                    <a class="padded_icon" href="mailto:find@fimyfilm.com" tabindex="0">
+                        <img height="32" src="res/icons/mono-kontact-mail.svg" alt="mail icon"/>
                     </a>
                 </nav>
             </div>

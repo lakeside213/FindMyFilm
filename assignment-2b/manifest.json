@@ -1,0 +1,11 @@
+{
+  "name" : "Find my Film  - where to get the latest and all-time favorite movies",
+  "short_name" : "Find my Film",
+  "icons" : [{
+    "src" : "favicon.png",
+    "sizes" : "32x32"
+  }],
+  "background_color" : "#ffffff",
+  "theme_color" : "#ffffff",
+  "display" : "fullscreen"
+}
