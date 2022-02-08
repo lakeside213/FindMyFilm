@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>Find My Film - Adventure | Category: Adventure movies</title>
-    <meta name="description" content="Welcome to the jungle, do not get lost in our wild world of adventurous movies.
-    Find your favorite old school cool classic or something brand new."/>
+    <title>Find My Film - Fantasy | Category: Fantasy</title>
+    <meta name="description" content="Find fantastic journeys through known and unknown worlds. make new friends or catch
+    up with old ones. Find your special home away from home. Find your fantasy film."/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="../styles.css"/>
     <!-- for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
@@ -16,41 +16,38 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet"/>
 
     <meta name="theme-color" content="#ffffff">
-    <link rel="icon" href="favicon.svg">
+    <link rel="icon" href="../favicon.svg">
     <link rel="mask-icon" href="mask-icon.svg" color="#000000">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="../manifest.json">
 
-    <script src="responsiveMenu.js"></script>
-    <script src="breadcrumb.js"></script>
+    <script src="../responsiveMenu.js"></script>
+    <script src="../breadcrumb.js"></script>
     <script> window.addEventListener("load", createLink)</script>
 </head>
+
 <body>
 <main>
     <div class="wrapper">
-
         <!--Header, stickied with landmark navigation-->
         <div class="header">
             <nav class="nav_head" id="navBar">
-                <a class="active" href="index.html" tabindex="0">
-                    <img src="res/FindMyFilm.svg"
+                <a class="active" href="../index.html" tabindex="0">
+                    <img src="../res/FindMyFilm.svg"
                          width="180"  alt="find my film logo"/>
-
                 </a>
-                <a href="allFilms.html" tabindex="0">all films</a>
-                <a href="categories.html" tabindex="0">categories</a>
-                <a href="register.html" tabindex="0">sign up</a>
-                <a href="aboutUs.html" tabindex="0">about us</a>
-                <a href="contact.html" tabindex="0">contact</a>
-                <a href="faqs.html" tabindex="0">faq</a>
+                <a href="../all-films.html" tabindex="0">all films</a>
+                <a href="../categories.html" tabindex="0">categories</a>
+                <a href="../register.html" tabindex="0">sign up</a>
+                <a href="../about-us.html" tabindex="0">about us</a>
+                <a href="../contact.html" tabindex="0">contact</a>
+                <a href="../faqs.html" tabindex="0">faq</a>
                 <a href="javascript:void(0);" class="menu_button" onclick="openMenu()" tabindex="0">
                     <i class="fa fa-bars"></i>
                 </a>
             </nav>
         </div>
-
             <!-- Content in main flow over part-->
-
             <div class="content">
                 <ul class="breadcrumb">
                     <li>...</li>
@@ -58,18 +55,18 @@
                     <li id="currentPage"></li>
                 </ul>
                 <div class="content">
-                    <h1>all adventure movies</h1>
+                    <h1>all fantasy movies</h1>
                     <div class="container flex_container_rows">
-                        <h2>adventure</h2>
+                        <h2>fantasy</h2>
                         <div class="flex_container_cols">
-                            <div>
-                                <a title="find me: Spectre" href="spectre.html" tabindex="0">
-                                    <img  srcset="res/moviePoster/spectre-240.jpg 240w,
-                                             res/moviePoster/spectre-480.jpg 480w"
+                             <div>
+                                <a title="find me: Interstellar" href="../movies/interstellar.html" tabindex="0">
+                                    <img  srcset="../res/moviePoster/interstellar-240.jpg 240w,
+                                             ../res/moviePoster/interstellar-480.jpg 480w"
                                           sizes="(max-width: 900px) 240px,
                                                                 480px"
-                                          src="res/moviePoster/spectre-480.jpg"
-                                          alt="Spectre - movie Poster"/>
+                                          src="../res/moviePoster/interstellar-480.jpg"
+                                          alt="Interstellar - movie Poster"/>
                                 </a>
                             </div>
                         </div>
@@ -86,16 +83,16 @@
             <br/>
             <nav class="navigation nav_foot">
                 <a class="padded_icon" href="https://www.facebook.com/findmyfilm" tabindex="0">
-                    <img height="32" src="res/icons/facebook.svg" alt="facebook icon"/>
+                    <img height="32" src="../res/icons/facebook.svg" alt="facebook icon"/>
                 </a>
                 <a class="padded_icon" href="https://www.instagram.com/findmyfilm" tabindex="0">
-                    <img width="32" src="res/icons/Instagram.svg" alt="instagram icon"/>
+                    <img width="32" src="../res/icons/Instagram.svg" alt="instagram icon"/>
                 </a>
                 <a class="padded_icon" href="https://www.twitter.com/findmyfilm" tabindex="0">
-                    <img width="32" src="res/icons/Twitter.svg" alt="twitter icon"/>
+                    <img width="32" src="../res/icons/Twitter.svg" alt="twitter icon"/>
                 </a>
                 <a class="padded_icon" href="mailto:find@fimyfilm.com" tabindex="0">
-                    <img height="32" src="res/icons/mono-kontact-mail.svg" alt="mail icon"/>
+                    <img height="32" src="../res/icons/mono-kontact-mail.svg" alt="mail icon"/>
                 </a>
             </nav>
         </div>

@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8"/>
-    <title>Find My Film - New Releases | new and hot</title>
-    <meta name="description" content="Fresh out of the box office and now curated by our community directly into your
-    living room."/>
+    <title>Find My Film - All Films | movies from all categories</title>
+    <meta name="description" content="Scroll through our huge collection of movies and where to find them. Click on
+anything interesting to find detailed description and further info."/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <link rel="stylesheet" href="styles.css"/>
@@ -29,17 +29,21 @@
 <body>
 <main>
     <div class="wrapper">
+
         <!--Header, stickied with landmark navigation-->
+        <!--Header, stickied with landmark navigation-->
+
         <div class="header">
             <nav class="nav_head" id="navBar">
                 <a class="active" href="index.html" tabindex="0">
                     <img src="res/FindMyFilm.svg"
                          width="180"  alt="find my film logo"/>
+
                 </a>
-                <a href="allFilms.html" tabindex="0">all films</a>
+                <a href="all-films.html" tabindex="0">all films</a>
                 <a href="categories.html" tabindex="0">categories</a>
                 <a href="register.html" tabindex="0">sign up</a>
-                <a href="aboutUs.html" tabindex="0">about us</a>
+                <a href="about-us.html" tabindex="0">about us</a>
                 <a href="contact.html" tabindex="0">contact</a>
                 <a href="faqs.html" tabindex="0">faq</a>
                 <a href="javascript:void(0);" class="menu_button" onclick="openMenu()" tabindex="0">
@@ -47,6 +51,7 @@
                 </a>
             </nav>
         </div>
+
             <!-- Content in main flow over part-->
 
             <div class="content">
@@ -56,12 +61,12 @@
                     <li id="currentPage"></li>
                 </ul>
                 <div class="content">
-                    <h1>all new movies</h1>
+                    <h1>all films</h1>
                     <div class="container flex_container_rows">
-                        <h2>new releases</h2>
+                        <h2>all movies</h2>
                         <div class="flex_container_cols">
                             <div>
-                                <a title="find me: Batman - The Dark Knight" href="darkKnight.html" tabindex="0">
+                                <a title="find me: Batman - The Dark Knight" href="movies/dark-knight.html" tabindex="0">
                                 <img srcset="res/moviePoster/dark-knight-rises-240.jpg 240w,
                                              res/moviePoster/dark-knight-rises-480.jpg 480w"
                                      sizes="(max-width: 900px) 240px,
@@ -72,7 +77,7 @@
                             </div>
 
                             <div>
-                                <a title="find me: Inception" href="inception.html" tabindex="0">
+                                <a title="find me: Inception" href="movies/inception.html" tabindex="0">
                                 <img  srcset="res/moviePoster/inception-240.jpg 240w,
                                               res/moviePoster/inception-480.jpg 480w"
                                       sizes="(max-width: 900px) 240px,
@@ -83,7 +88,7 @@
                             </div>
 
                             <div>
-                                <a title="find me: Interstellar" href="interstellar.html" tabindex="0">
+                                <a title="find me: Interstellar" href="movies/interstellar.html" tabindex="0">
                                     <img  srcset="res/moviePoster/interstellar-240.jpg 240w,
                                              res/moviePoster/interstellar-480.jpg 480w"
                                           sizes="(max-width: 900px) 240px,
@@ -94,7 +99,7 @@
                             </div>
 
                             <div>
-                                <a title="find me: Joker" href="joker.html" tabindex="0">
+                                <a title="find me: Joker" href="movies/joker.html" tabindex="0">
                                 <img  srcset="res/moviePoster/joker-240.jpg 240w,
                                               res/moviePoster/joker-480.jpg 480w"
                                       sizes="(max-width: 900px) 240px,
@@ -105,7 +110,29 @@
                             </div>
 
                             <div>
-                                <a title="find me: Spectre" href="spectre.html"  tabindex="0">
+                                <a title="find me: No time to die" href="movies/no-time-to-die.html" tabindex="0">
+                                    <img  srcset="res/moviePoster/no-time-to-die-240.jpg 240w,
+                                             res/moviePoster/no-time-to-die-480.jpg 480w"
+                                          sizes="(max-width: 900px) 240px,
+                                                                480px"
+                                          src="res/moviePoster/no-time-to-die-480.jpg"
+                                          alt="Spectre - movie Poster"/>
+                                </a>
+                            </div>
+
+                            <div>
+                                <a title="find me: Skyfall" href="movies/skyfall.html" tabindex="0">
+                                    <img  srcset="res/moviePoster/skyfall-240.jpg 240w,
+                                             res/moviePoster/skyfall-4800.jpg 480w"
+                                          sizes="(max-width: 900px) 240px,
+                                                                480px"
+                                          src="res/moviePoster/skyfall-4800.jpg"
+                                          alt="Skyfall - movie Poster"/>
+                                </a>
+                            </div>
+
+                            <div>
+                                <a title="find me: Spectre" href="movies/spectre.html" tabindex="0">
                                     <img  srcset="res/moviePoster/spectre-240.jpg 240w,
                                              res/moviePoster/spectre-480.jpg 480w"
                                           sizes="(max-width: 900px) 240px,
@@ -122,25 +149,26 @@
             </div>
 
             <!--Footer, stickied with social media info-->
-            <div class="footer">
-                You could not find your Film on FindMyFilm.com? Tell us:
-                <br/>
-                <nav class="navigation nav_foot">
-                    <a class="padded_icon" href="https://www.facebook.com/findmyfilm" tabindex="0">
-                        <img height="32" src="res/icons/facebook.svg" alt="facebook icon"/>
-                    </a>
-                    <a class="padded_icon" href="https://www.instagram.com/findmyfilm" tabindex="0">
-                        <img width="32" src="res/icons/Instagram.svg" alt="instagram icon"/>
-                    </a>
-                    <a class="padded_icon" href="https://www.twitter.com/findmyfilm" tabindex="0">
-                        <img width="32" src="res/icons/Twitter.svg" alt="twitter icon"/>
-                    </a>
-                    <a class="padded_icon" href="mailto:find@fimyfilm.com" tabindex="0">
-                        <img height="32" src="res/icons/mono-kontact-mail.svg" alt="mail icon"/>
-                    </a>
-                </nav>
-            </div>
+
+        <div class="footer">
+            You could not find your Film on FindMyFilm.com? Tell us:
+            <br/>
+            <nav class="navigation nav_foot">
+                <a class="padded_icon" href="https://www.facebook.com/findmyfilm" tabindex="0">
+                    <img height="32" src="res/icons/facebook.svg" alt="facebook icon"/>
+                </a>
+                <a class="padded_icon" href="https://www.instagram.com/findmyfilm" tabindex="0">
+                    <img width="32" src="res/icons/Instagram.svg" alt="instagram icon"/>
+                </a>
+                <a class="padded_icon" href="https://www.twitter.com/findmyfilm" tabindex="0">
+                    <img width="32" src="res/icons/Twitter.svg" alt="twitter icon"/>
+                </a>
+                <a class="padded_icon" href="mailto:find@fimyfilm.com" tabindex="0">
+                    <img height="32" src="res/icons/mono-kontact-mail.svg" alt="mail icon"/>
+                </a>
+            </nav>
         </div>
-</main>
+        </div>
+    </main>
 </body>
 </html>
